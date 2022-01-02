@@ -32,6 +32,6 @@ answer=input("what does ROM stands for")
 if answer.lower()=="readonly memory"
     print("correct")
     score+=1
-else
+else:
     print("incorrect")
 print("You got "+str(score)+" questions currect!")
